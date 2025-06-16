@@ -23,7 +23,7 @@
       <div
         class="
           hidden md:block absolute
-          top-[20%] md:top-[25%] xl:top-[30%]
+          top-[10%] 
           left-[10%] md:left-[12%] xl:left-[15%]
         "
       >
