@@ -1,5 +1,7 @@
 <template>
-  <div>
-    <landing></landing>
-  </div>
+  
+    <div>
+      <landing></landing>
+    </div>
+  
 </template>
