@@ -9,6 +9,12 @@ export default defineNuxtConfig({
   vite: { 
     plugins: [tailwindcss(),], 
   },
+  modules: [
+        '@primevue/nuxt-module'
+    ],
+    primevue: {
+        /* Configuration */
+    }
   
   
   

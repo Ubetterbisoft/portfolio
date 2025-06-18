@@ -1,5 +1,5 @@
 <template>
-  <div class=" overflow-hidden bg-gray-700 min-h-screen flex flex-col md:flex-row">
+  <div class=" overflow-hidden bg-zinc-800 min-h-screen flex flex-col md:flex-row">
 
     <!-- Bild-Container mit Slide+Fade -->
     <transition name="slide-image" appear>
@@ -26,7 +26,7 @@
     <div class="w-full md:w-2/3 p-6 relative">
       <!-- Desktop Overlay: Slide from right + Fade -->
       <transition name="slide-title" appear>
-        <div class="group hidden md:block absolute top-[25%] left-[12%] xl:top-[30%] xl:left-[15%]">
+        <div class="group hidden md:block absolute top-[10%] left-[12%] xl:top-[20%] xl:left-[15%]">
           <div class="flex flex-row">
             <h1 class="text-white font-mono font-semibold leading-tight text-5xl md:text-6xl xl:text-7xl">
               Dejan<br />Rajic.
@@ -46,7 +46,7 @@
         </div>
 
       </transition>
-      <div class="flex col absolute top-[55%] left-[40%] block">
+      <div class="flex col absolute top-[45%] left-[40%] block">
         <transition name="slide-description" appear>
           <p class="font-arial italic font-normal text-gray-300 text-base
             w-[20rem]
@@ -57,14 +57,8 @@
               class="underline decoration-amber-400">Fokus auf deine Ziele.</a>
           </p>
         </transition>
-        <UPricingPlan title="Solo" description="For bootstrappers and indie hackers." price="$249" :features="[
-          'One developer',
-          'Unlimited projects',
-          'Access to GitHub repository',
-          'Unlimited patch & minor updates',
-          'Lifetime access'
-        ]" />
-
+        
+        
       </div>
 
 
@@ -74,7 +68,9 @@
   
 </template>
 
-
+<script>
+  import Rating from 'primevue/rating'
+</script>
 
 
 <style>
