@@ -1,7 +1,7 @@
 <template>
     <div class="h-screen bg-zinc-900 pt-[10%]">
         <div class="flex justify-around">
-            <div ref="card" class="bg-gray-400 hover:bg-amber-500 duration-200 ease-in
+            <div ref="card" class="bg-gray-600 hover:bg-amber-500 duration-200 ease-in
                xl:w-[20rem] xl:h-[20rem] flex items-center justify-center">
                 <transition name="slide-up">
                     <!-- Elemente mit v-if werden erst gemountet, wenn isVisible true ist -->
@@ -9,11 +9,11 @@
                         <p class="text-4xl text-white text-center">
                             Product Designer
                         </p>
-                        <p class="text-lg text-gray-500 text-center">Beschreibung</p>
+                        <p class="text-lg text-gray-800 text-center">Beschreibung</p>
                     </div>
                 </transition>
             </div>
-            <div ref="card" class="bg-gray-400 hover:bg-amber-500 duration-200 ease-in
+            <div ref="card" class="bg-gray-600 hover:bg-amber-500 duration-200 ease-in
                xl:w-[20rem] xl:h-[20rem] flex items-center justify-center">
                 <transition name="slide-up">
                     <!-- Elemente mit v-if werden erst gemountet, wenn isVisible true ist -->
@@ -21,19 +21,19 @@
                         <p class="text-4xl text-white text-center">
                             Expertiese
                         </p>
-                        <p class="text-lg text-gray-500 text-center">Beschreibung</p>
+                        <p class="text-lg text-gray-800 text-center">Beschreibung</p>
                     </div>
                 </transition>
             </div>
-            <div ref="card" class="bg-gray-400 hover:bg-amber-500 duration-200 ease-in
+            <div ref="card" class="bg-gray-600 hover:bg-amber-500 duration-200 ease-in
                xl:w-[20rem] xl:h-[20rem] flex items-center justify-center">
                 <transition name="slide-up">
                     <!-- Elemente mit v-if werden erst gemountet, wenn isVisible true ist -->
                     <div v-if="isVisible">
                         <p class="text-4xl text-white text-center">
-                            Frameworks
+                            <i class="pi pi-database pe-5"></i>Frameworks
                         </p>
-                        <p class="text-lg text-gray-500 text-center">Beschreibung</p>
+                        <p class="text-lg text-gray-800 text-center">Beschreibung</p>
                     </div>
                 </transition>
             </div>
